@@ -17,13 +17,11 @@ def somador(caracteres, resultado):
                 numero_atual = ""
             
             # Verifica os comandos "On" e "Off" para ativar ou desativar a soma
-            if char.lower() == 'o' and i < len(caracteres) - 1: # se o caracter for alguma variação da letra "o" e não for o último caracter da linha
+            if char.upper() == 'O' and i < len(caracteres) - 1: # se o caracter for alguma variação da letra "o" e não for o último caracter da linha
                 if caracteres[i+1].upper() == 'N':
-                    print("Soma ativada")
                     somar = True
                     off_block = False
                 elif i < len(caracteres) - 2 and caracteres[i+1:i+3].upper() == 'FF':
-                    print("Soma desativada")
                     somar = False
                     off_block = True
             
