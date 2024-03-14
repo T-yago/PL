@@ -1,0 +1,8 @@
+>> LISTAR
+>> Moeda 1e, 10c, 20c
+>> SELECIONAR 2
+>> SELECIONAR 3
+>> Moeda 2e, 1e
+>>> 
+>> SADA
+>> SAIR
