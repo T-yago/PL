@@ -1,4 +1,4 @@
-## Termos terminais
+## Termos não terminais
 
 #### P (Programa):
 Progama consiste no termo mais geral que pode ser qualquer uma das três expressões (? var P | !E P | var = E P ) ou ainda o vazio (ε)
